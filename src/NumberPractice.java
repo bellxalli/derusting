@@ -21,5 +21,18 @@ public class NumberPractice {
      * 7 / 3 = 2 when performing int division
      */
 
+    double negFloat = -1.5;
+    int posInt = 1;
+    int remainder = posInt % 3;
+    if(remainder % 2 == 0)
+    {
+      System.out.println("even");
+    }
+    else
+    {
+      System.out.println("odd");
+    }
+    int intDivision = remainder / 5;
+
   }
 }
